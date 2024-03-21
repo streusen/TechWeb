@@ -1,0 +1,30 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    overflow:hidden;
+    
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: large;
+    padding: 10px 15px 1px 15px;
+}
+li{
+    float: left;
+}
+.sg{
+    position: relative;
+    left:850px;
+}
+li a:hover{
+    color: aqua;
+    background-color: rgb(69, 62, 62);
+}
+.active{
+    background-color: black;
+    color: yellow;
+    
+}

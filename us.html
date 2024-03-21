@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="All.css">
+    
+    <style>
+        body{
+            background-color: black;
+            overflow: hidden;
+        }
+        .div1{
+            border:solid 1px ;
+            position: relative;
+        }
+        .div2{
+            position: absolute;
+            top: 60px;
+            width: 600px;
+            left: 600px;
+        }
+        .p1{
+            color: blanchedalmond;
+            font-size: 20px;
+            
+        }
+        .div3{
+            float: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .div3:hover{
+            translate: 2rem;
+            scale: 1.2;
+            z-index: 1;
+            box-shadow: 0px 8px 16px 0px red;
+            padding:0%;
+        }
+        .actives{
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="Home.html">HomePage</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li class="actives"><a href="us.html">About Us</a></li>
+        <li><a href="faqs.html">FaQs</a></li>
+        <li class="sg"><a href="sign.html">SignUp/LogIn</a></li>
+    </ul><br>
+    <div class="div1">
+        <img src="HomeBg.jpg" alt="COMPANY" height="300" width="500">
+        <div class="div2">
+        <p class="p1"> <i>With a passion for pushing boundaries and a commitment to excellence,
+             we specialize in providing cutting-edge software development, bespoke 
+             IT consulting, and transformative digital strategies tailored to meet the
+              unique needs of each client.Our team of seasoned experts combines deep industry 
+              knowledge with technical prowess to deliver results that drive growth, efficiency, 
+              and competitive advantage. Whether you're a startup striving for scalability or an
+               established enterprise seeking digital transformation, TechWise Solutions is your
+                trusted partner for navigating the ever-evolving tech landscape with confidence and success.</i> </p></div>
+    </div>
+    <p style="color: aliceblue;text-align: center;">We have branches spread out across the world:The three of our branches overseas are...<cite>Click the images for more details</cite></p>
+    <div>
+        <div class="div3"><a href="comp1"><img src="company.jpg" alt="company" width="400" height="300"></a></div>
+        <div class="div3"><a href="comp2"><img src="company2.jpg" alt="company" width="400" height="300"></a></div>
+        <div class="div3"><a href="comp3"><img src="facility1.jpg" alt="company" width="400" height="300"></a></div>
+    </div>
+</body>
+</html>
